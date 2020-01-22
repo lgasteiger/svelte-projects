@@ -1,0 +1,7 @@
+# Ignore Javascript libraries
+js-tutorial/node_modules/jquery/
+html-tutorial/node_modules/jquery/
+js-tutorial/backbone-js/
+js-tutorial/underscore-js/
+stop-node-process.txt
+
