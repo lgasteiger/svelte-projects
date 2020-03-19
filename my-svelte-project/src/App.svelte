@@ -1,10 +1,12 @@
 <script>
 	export let name;
+	const myName = 'lgg';
 </script>
 
 <main>
 	<h1>Hello {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+  <h2>{myName.toUpperCase()} has been learning along side you too!!</h2>
 </main>
 
 <style>
