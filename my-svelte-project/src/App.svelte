@@ -1,6 +1,6 @@
 <script>
 	export let name;
-	const myName = 'lgg';
+	const myName = 'lg';
 </script>
 
 <main>
