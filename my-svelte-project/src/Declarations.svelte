@@ -11,6 +11,6 @@
   <button on:click={handleClick}>
     Click {count} {count === 1 ? 'time' : 'times'}
  </button>
-
-  {count} doubled is {doubled}
 </p>
+
+<p>{count} doubled is {doubled}</p>

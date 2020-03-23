@@ -43,21 +43,37 @@
 				<td><Styling /></td>
 			</tr>
 			<tr>
-			  <td class="leftCol">Nested Components</td>
+			  <td><h3>Introduction</h3></td>
+			  <td><h4>Nested Components</h4></td>
 				<td><NestedComponents /></td>
+			</tr>
+			<tr>
+			  <td><h3>Introduction</h3></td>
+				<td><h4>HTML Tags</h4></td>
+				<td><HtmlTags /></td>
+			</tr>
+			<tr>
+			  <td><h3>Reactivity</h3></td>
+				<td><h4>Assignments</h4></td>
+				<td><Assignments /></td>
+			</tr>
+			<tr>
+			  <td><h3>Reactivity</h3></td>
+			  <td><h4>Declarations</h4></td>
+        <td><Declarations /></td>
+			</tr>
+			<tr>
+			  <td><h3>Reactivity</h3></td>
+				<td><h4>Statements</h4></td>
+				<td><Statements /></td>
+			</tr>
+			<tr>
+			  <td><h3>Reactivity</h3></td>
+				<td><h4>Updating Arrays</h4></td>
+				<td><UpdatingArrays /></td>
 			</tr>
 		</tbody>
 	</table>
-
-	<HtmlTags />
-
-  <Assignments />
-
-	<Declarations />
-
-	<Statements />
-
-	<UpdatingArrays />
 </main>
 
 <style>
