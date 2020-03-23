@@ -6,9 +6,18 @@
 	import Declarations from './Declarations.svelte';
 	import Statements from './Statements.svelte';
 	import UpdatingArrays from './UpdatingArrays.svelte';
+	import NestedDeclaringProps from './NestedDeclaringProps.svelte';
+	import NestedDefaultValues from './NestedDefaultValues.svelte';
+	import SpreadPropsInfo from './SpreadPropsInfo.svelte';
 
 	export let name;
 	const src = 'images/myGlock.png';
+  const pkg = {
+		name: 'svelte'
+		,version: 3
+		,speed: 'blazing'
+		,website: 'https://svelte.dev'
+	};
 </script>
 
 <main>
@@ -71,6 +80,31 @@
 			  <td><h3>Reactivity</h3></td>
 				<td><h4>Updating Arrays</h4></td>
 				<td><UpdatingArrays /></td>
+			</tr>
+			<tr>
+			  <td><h3>Props</h3></td>
+				<td><h4>Declaring Props</h4></td>
+				<td><NestedDeclaringProps answer={42} /></td>
+			</tr>
+			<tr>
+			  <td><h3>Props</h3></td>
+				<td><h4>Default Values</h4></td>
+				<td><NestedDefaultValues answer={45} />
+				    <NestedDefaultValues />
+				</td>
+			</tr>
+			<tr>
+			  <td><h3>Props</h3></td>
+				<td><h4>Spreading Props</h4></td>
+				<td>
+				  <SpreadPropsInfo 
+					  name={pkg.name}
+						version={pkg.version}
+						speed={pkg.speed}
+						website={pkg.website}
+					/>
+					<u>Using the Spread Operator</u> ==> <SpreadPropsInfo {...pkg} />
+				</td>
 			</tr>
 		</tbody>
 	</table>
