@@ -1,7 +1,7 @@
 <script>
   let count = 0;
   $: console.log(`The count is ${count}`);
-  $: alert(`I said the is: ${count}`);
+  //$: alert(`I said the is: ${count}`);
   $: if (count >= 10) {
     alert(`Count is dangerouly high!`);
     count = 9;
