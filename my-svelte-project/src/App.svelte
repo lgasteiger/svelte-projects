@@ -9,6 +9,8 @@
 	import NestedDeclaringProps from './NestedDeclaringProps.svelte';
 	import NestedDefaultValues from './NestedDefaultValues.svelte';
 	import SpreadPropsInfo from './SpreadPropsInfo.svelte';
+	import IfBlocks from './IfBlocks.svelte';
+	import ElseIf from './ElseIf.svelte';
 
 	export let name;
 	const src = 'images/myGlock.png';
@@ -105,6 +107,16 @@
 					/>
 					<u>Using the Spread Operator</u> ==> <SpreadPropsInfo {...pkg} />
 				</td>
+			</tr>
+			<tr>
+			  <td><h3>Logic</h3></td>
+				<td><h4>If Blocks</h4></td>
+				<td><IfBlocks /></td>
+			</tr>
+			<tr>
+			  <td><h3>Logic</h3></td>
+				<td><h4>Else If Blocks</h4></td>
+				<td><ElseIf /></td>
 			</tr>
 		</tbody>
 	</table>
