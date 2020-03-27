@@ -11,6 +11,9 @@
 	import SpreadPropsInfo from './SpreadPropsInfo.svelte';
 	import IfBlocks from './IfBlocks.svelte';
 	import ElseIf from './ElseIf.svelte';
+	import EachBlocks from './EachBlocks.svelte';
+	import KeyedEachBlocks from './KeyedEachBlocks.svelte';
+	import AwaitBlocks from './AwaitBlocks.svelte';
 
 	export let name;
 	const src = 'images/myGlock.png';
@@ -117,6 +120,21 @@
 			  <td><h3>Logic</h3></td>
 				<td><h4>Else If Blocks</h4></td>
 				<td><ElseIf /></td>
+			</tr>
+			<tr>
+			  <td><h3>Logic</h3></td>
+				<td><h4>Each Blocks</h4></td>
+				<td><EachBlocks /></td>
+			</tr>
+			<tr>
+			  <td><h3>Logic</h3></td>
+				<td><h4>Keyed Each Blocks</h4></td>
+        <td><KeyedEachBlocks /></td>
+			</tr>
+			<tr>
+			  <td><h3>Logic</h3></td>
+				<td><h4>Await Blocks</h4></td>
+				<td><AwaitBlocks /></td>
 			</tr>
 		</tbody>
 	</table>
