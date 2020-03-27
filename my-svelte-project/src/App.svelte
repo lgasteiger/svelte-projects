@@ -14,7 +14,10 @@
 	import EachBlocks from './EachBlocks.svelte';
 	import KeyedEachBlocks from './KeyedEachBlocks.svelte';
 	import AwaitBlocks from './AwaitBlocks.svelte';
-
+	import DomElements from './DomElements.svelte';
+	import EventModifiers from './EventModifiers.svelte';
+  import ComponentEvents from './ComponentEvents.svelte';
+	
 	export let name;
 	const src = 'images/myGlock.png';
   const pkg = {
@@ -135,6 +138,21 @@
 			  <td><h3>Logic</h3></td>
 				<td><h4>Await Blocks</h4></td>
 				<td><AwaitBlocks /></td>
+			</tr>
+			<tr>
+			  <td><h3>Events</h3></td>
+				<td><h4>DOM Elements</h4></td>
+				<td><DomElements /></td>
+			</tr>
+			<tr>
+			  <td><h3>Events</h3></td>
+				<td><h4>Event Modifiers</h4></td>
+				<td><EventModifiers /></td>
+			</tr>
+			<tr>
+			  <td><h3>Events</h3></td>
+				<td><h4>Component Events</h4></td>
+				<td><ComponentEvents /></td>
 			</tr>
 		</tbody>
 	</table>
