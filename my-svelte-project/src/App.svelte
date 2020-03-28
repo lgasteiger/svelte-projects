@@ -16,7 +16,8 @@
 	import AwaitBlocks from './AwaitBlocks.svelte';
 	import DomElements from './DomElements.svelte';
 	import EventModifiers from './EventModifiers.svelte';
-  import ComponentEvents from './ComponentEvents.svelte';
+	import ComponentEvents from './ComponentEvents.svelte';
+	import DomEventForwarding from './DomEventForwarding.svelte';
 	
 	export let name;
 	const src = 'images/myGlock.png';
@@ -151,8 +152,13 @@
 			</tr>
 			<tr>
 			  <td><h3>Events</h3></td>
-				<td><h4>Component Events</h4></td>
+				<td><h4>Component Events and Event Forwarding</h4></td>
 				<td><ComponentEvents /></td>
+			</tr>
+			<tr>
+			  <td><h3>Events</h3></td>
+				<td><h4>DOM Event Forwarding</h4></td>
+				<td><DomEventForwarding /></td>
 			</tr>
 		</tbody>
 	</table>

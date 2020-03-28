@@ -4,7 +4,7 @@
   //$: alert(`I said the is: ${count}`);
   $: if (count >= 10) {
     alert(`Count is dangerouly high!`);
-    count = 9;
+    count = 0;
   } //end if
 
   function handleClick() {
