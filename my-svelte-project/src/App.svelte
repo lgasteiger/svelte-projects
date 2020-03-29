@@ -22,6 +22,9 @@
 	import NumericInputs from './NumericInputs.svelte';
 	import CheckboxInputs from './CheckboxInputs.svelte';
 	import GroupInputs from './GroupInputs.svelte';
+	import TextareaInputs from './TextareaInputs.svelte';
+	import SelectBindings from './SelectBindings.svelte';
+
 	export let name;
 	const src = 'images/myGlock.png';
   const pkg = {
@@ -182,6 +185,16 @@
 			  <td><h3>Bindings</h3></td>
 				<td><h4>Group Inputs</h4></td>
 				<td><GroupInputs /></td>
+			</tr>
+			<tr>
+			  <td><h3>Bindings</h3></td>
+				<td><h4>Textarea Inputs</h4></td>
+				<td><TextareaInputs /></td>
+			</tr>
+			<tr>
+			  <td><h3>Bindings</h3></td>
+				<td><h4>Select Bindings</h4></td>
+				<td><SelectBindings /></td>
 			</tr>
 		</tbody>
 	</table>
