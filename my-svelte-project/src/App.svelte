@@ -18,7 +18,10 @@
 	import EventModifiers from './EventModifiers.svelte';
 	import ComponentEvents from './ComponentEvents.svelte';
 	import DomEventForwarding from './DomEventForwarding.svelte';
-	
+	import TextInput from './TextInput.svelte';
+	import NumericInputs from './NumericInputs.svelte';
+	import CheckboxInputs from './CheckboxInputs.svelte';
+	import GroupInputs from './GroupInputs.svelte';
 	export let name;
 	const src = 'images/myGlock.png';
   const pkg = {
@@ -159,6 +162,26 @@
 			  <td><h3>Events</h3></td>
 				<td><h4>DOM Event Forwarding</h4></td>
 				<td><DomEventForwarding /></td>
+			</tr>
+			<tr>
+			  <td><h3>Bindings</h3></td>
+				<td><h4>Text Input</h4></td>
+				<td><TextInput /></td>
+			</tr>
+			<tr>
+			  <td><h3>Bindings</h3></td>
+				<td><h4>Text Input</h4></td>
+				<td><NumericInputs /></td>
+			</tr>
+			<tr>
+			  <td><h3>Bindings</h3></td>
+				<td>Checkbox Inputs</td>
+				<td><CheckboxInputs /></td>
+			</tr>
+			<tr>
+			  <td><h3>Bindings</h3></td>
+				<td><h4>Group Inputs</h4></td>
+				<td><GroupInputs /></td>
 			</tr>
 		</tbody>
 	</table>
