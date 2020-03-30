@@ -30,6 +30,7 @@
   </label>
 {/each}
 
+<h2>Current Flavors Available</h2>
 <select multiple bind:value={chosenFlavors}>
   {#each flavors as flavor}
     <option value={flavor}>

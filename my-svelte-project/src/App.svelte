@@ -24,7 +24,10 @@
 	import GroupInputs from './GroupInputs.svelte';
 	import TextareaInputs from './TextareaInputs.svelte';
 	import SelectBindings from './SelectBindings.svelte';
-
+	import SelectMultiple from './SelectMultiple.svelte';
+	import ContentEditableBindings from './ContentEditableBindings.svelte';
+	import EachBlockBindings from './EachBlockBindings.svelte';
+	
 	export let name;
 	const src = 'images/myGlock.png';
   const pkg = {
@@ -195,6 +198,21 @@
 			  <td><h3>Bindings</h3></td>
 				<td><h4>Select Bindings</h4></td>
 				<td><SelectBindings /></td>
+			</tr>
+			<tr>
+			  <td><h3>Bindings</h3></td>
+				<td>Select Multiple</td>
+				<td><SelectMultiple /></td>
+			</tr>
+			<tr>
+			  <td><h3>Bindings</h3></td>
+				<td><h4>Contenteditable Bindings</h4></td>
+				<td><ContentEditableBindings /></td>
+			</tr>
+			<tr>
+			  <td><h3>Bindings</h3></td>
+				<td><h4>Each Block Bindings</h4></td>
+				<td><EachBlockBindings /></td>
 			</tr>
 		</tbody>
 	</table>
