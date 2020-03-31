@@ -28,7 +28,8 @@
 	import ContentEditableBindings from './ContentEditableBindings.svelte';
 	import EachBlockBindings from './EachBlockBindings.svelte';
 	import MediaElements from './MediaElements.svelte';
-
+	import Dimensions from './Dimensions.svelte';
+	
 	export let name;
 	const src = 'images/myGlock.png';
   const pkg = {
@@ -219,6 +220,11 @@
 			  <td><h3>Bindings</h3></td>
 				<td><h4>Media Elements</h4></td>
 				<td><MediaElements /></td>
+			</tr>
+			<tr>
+			  <td><h3>Bindings</h3></td>
+				<td><h4>Dimensions</h4></td>
+				<td><Dimensions /></td>
 			</tr>
 		</tbody>
 	</table>

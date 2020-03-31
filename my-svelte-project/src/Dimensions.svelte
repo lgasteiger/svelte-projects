@@ -6,10 +6,6 @@
 </script>
 
 <style>
-  input {
-    display: block;
-  }
-
   div {
     display: inline-block;
   }
@@ -20,3 +16,18 @@
 </style>
 
 <h1>Binding Dimensions Example</h1>
+
+<p>
+  <input type=range bind:value={size}>
+</p>
+<p>
+  <input bind:value={text}>
+</p>
+
+<p>Size: {w}px x {h}px</p>
+
+<div bind:clientWidth={w} bind:clientHeight={h}>
+  <span style="font-size: {size}px">
+    {text}
+  </span>
+</div>
