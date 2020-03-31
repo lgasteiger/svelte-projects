@@ -5,6 +5,8 @@
     ,{ done: false, text: 'Help people around the world'}
   ];
 
+  let updatedTodos = [];
+
   $: remaining = todos.filter(t => !t.done).length;
 
   function addTodo() {
