@@ -29,6 +29,8 @@
 	import EachBlockBindings from './EachBlockBindings.svelte';
 	import MediaElements from './MediaElements.svelte';
 	import Dimensions from './Dimensions.svelte';
+	import ThisExample from './ThisExample.svelte';
+	import ComponentBindings from './ComponentBindings.svelte';
 	
 	export let name;
 	const src = 'images/myGlock.png';
@@ -225,6 +227,16 @@
 			  <td><h3>Bindings</h3></td>
 				<td><h4>Dimensions</h4></td>
 				<td><Dimensions /></td>
+			</tr>
+			<tr>
+			  <td><h3>Bindings</h3></td>
+				<td><h4>This Example</h4></td>
+				<td><ThisExample /></td>
+			</tr>
+			<tr>
+			  <td><h3>Bindings</h3></td>
+				<td><h4>Component Bindings</h4></td>
+				<td><ComponentBindings /></td>
 			</tr>
 		</tbody>
 	</table>
