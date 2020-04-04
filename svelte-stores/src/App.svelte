@@ -1,10 +1,27 @@
 <script>
+  import WritableStores from './WritableStores.svelte';
+
 	export let name;
 </script>
 
 <main>
 	<h1>Hello {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+  <table>
+	  <caption>Svelte Stores Tutorial</caption>
+		<thead>
+		  <tr>
+			  <td>Svelte Stores Concepts</td>
+				<td>Svelte Example</td>
+			</tr>
+		</thead>
+		<tbody>
+		  <tr>
+			  <td>Writable Stores</td>
+				<td><WritableStores /></td>
+			</tr>
+		</tbody>
+	</table>
 </main>
 
 <style>
@@ -26,5 +43,21 @@
 		main {
 			max-width: none;
 		}
+	}
+
+	table caption {
+		padding: 0 0 0 0.5em 0;
+		font-size: 1.25em;
+	}
+
+	table thead {
+		background-color: #06c;
+		font-weight: bold;
+	}
+
+	td {
+		border: 1px solid #000;
+		padding: 0.5em 1em 0.5em 1em;
+		text-align: center;
 	}
 </style>
