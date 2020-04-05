@@ -1,5 +1,10 @@
 <script>
   import WritableStores from './WritableStores.svelte';
+	import AutoSubscriptions from './AutoSubscriptions.svelte';
+	import ReadableStores from './ReadableStores.svelte';
+	import DerivedStores from './DerivedStores.svelte';
+	import CustomStores from './CustomStores.svelte';
+	import StoreBindings from './StoreBindings.svelte';
 
 	export let name;
 </script>
@@ -19,6 +24,26 @@
 		  <tr>
 			  <td>Writable Stores</td>
 				<td><WritableStores /></td>
+			</tr>
+			<tr>
+			  <td>Auto Subscriptions</td>
+				<td><AutoSubscriptions /></td>
+			</tr>
+			<tr>
+			  <td>Readable Stores</td>
+				<td><ReadableStores /></td>
+			</tr>
+			<tr>
+			  <td>Derived Stores</td>
+				<td><DerivedStores /></td>
+			</tr>
+			<tr>
+			  <td>Custom Stores</td>
+				<td><CustomStores /></td>
+			</tr>
+			<tr>
+			  <td>Store Bindings</td>
+				<td><StoreBindings /></td>
 			</tr>
 		</tbody>
 	</table>
