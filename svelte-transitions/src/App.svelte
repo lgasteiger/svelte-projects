@@ -1,7 +1,4 @@
 <script>
-	import TweenedAnimation from './TweenedAnimation.svelte';
-	import SpringExample from './SpringExample.svelte';
-	
 	export let name;
 </script>
 
@@ -9,20 +6,18 @@
 	<h1>Hello {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
   <table>
-	  <caption>Svelte Motion Tutorial</caption>
+	  <caption>Svelte Transitions Tutorial</caption>
 		<thead>
 		  <tr>
-			  <td>Svelte Motion Concepts</td>
+			  <td>Svelte Concepts</td>
 				<td>Svelte Example</td>
 			</tr>
 		</thead>
 		<tbody>
 		  <tr>
-			  <td>Tweened Animation</td>
-				<td><TweenedAnimation /></td>
+			<td>Placeholder</td>
+			<td>Placeholder</td>
 			</tr>
-			<td>Spring Animation</td>
-			<td><SpringExample /></td>
 		</tbody>
 	</table>
 </main>
@@ -54,7 +49,7 @@
 	}
 
 	table thead {
-    background-color: #06c;
+		background-color: #06c;
 		font-weight: bold;
 	}
 

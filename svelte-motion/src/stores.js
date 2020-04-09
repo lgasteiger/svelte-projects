@@ -1,5 +1,6 @@
 import { writable } from 'svelte/store';
 import { tweened } from 'svelte/motion';
+import { spring } from 'svelte/motion';
 import { cubicOut } from 'svelte/easing';
 
 //const progress = writable(0);
