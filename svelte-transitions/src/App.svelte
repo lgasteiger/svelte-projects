@@ -1,4 +1,9 @@
 <script>
+  import TransitionDirective from './TransitionDirective.svelte';
+  import AddingParameters from './AddingParameters.svelte';
+	import InAndOut from './InAndOut.svelte';
+  import CustomCss from './CustomCss.svelte';
+
 	export let name;
 </script>
 
@@ -15,8 +20,20 @@
 		</thead>
 		<tbody>
 		  <tr>
-			<td>Placeholder</td>
-			<td>Placeholder</td>
+			<td>Transition Directive</td>
+			<td><TransitionDirective /></td>
+			</tr>
+			<tr>
+			  <td>Adding Parameters</td>
+				<td><AddingParameters /></td>
+			</tr>
+			<tr>
+			  <td>In and Out Transitions</td>
+        <td><InAndOut /></td>
+			</tr>
+			<tr>
+			  <td>Custom CSS Transitions</td>
+				<td><CustomCss /></td>
 			</tr>
 		</tbody>
 	</table>
