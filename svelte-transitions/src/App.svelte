@@ -3,7 +3,8 @@
   import AddingParameters from './AddingParameters.svelte';
 	import InAndOut from './InAndOut.svelte';
   import CustomCss from './CustomCss.svelte';
-
+	import CustomJsTransitions from './CustomJsTransitions.svelte';
+	
 	export let name;
 </script>
 
@@ -34,6 +35,10 @@
 			<tr>
 			  <td>Custom CSS Transitions</td>
 				<td><CustomCss /></td>
+			</tr>
+			<tr>
+			  <td>Custom JS Transitions</td>
+				<td><CustomJsTransitions /></td>
 			</tr>
 		</tbody>
 	</table>
