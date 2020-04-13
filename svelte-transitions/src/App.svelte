@@ -4,7 +4,10 @@
 	import InAndOut from './InAndOut.svelte';
   import CustomCss from './CustomCss.svelte';
 	import CustomJsTransitions from './CustomJsTransitions.svelte';
-	
+	import TransitionEvents from './TransitionEvents.svelte';
+	import LocalTransitions from './LocalTransitions.svelte';
+	import DeferredTransitions from './DeferredTransitions.svelte';
+				
 	export let name;
 </script>
 
@@ -39,6 +42,18 @@
 			<tr>
 			  <td>Custom JS Transitions</td>
 				<td><CustomJsTransitions /></td>
+			</tr>
+			<tr>
+			  <td>Transition Events</td>
+				<td><TransitionEvents /></td>
+			</tr>
+			<tr>
+			  <td>Local Transitions</td>
+				<td><LocalTransitions /></td>
+			</tr>
+			<tr>
+			  <td>Deferred Transitions</td>
+				<td><DeferredTransitions /></td>
 			</tr>
 		</tbody>
 	</table>
