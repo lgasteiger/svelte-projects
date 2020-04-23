@@ -1,5 +1,6 @@
 <script>
-  import SvelteSelf from './SvelteSelf.svelte';
+	import SvelteSelf from './SvelteSelf.svelte';
+	import SvelteComp from './svelte-component/SvelteComponent.svelte';
 
 	export let name;
 </script>
@@ -9,7 +10,11 @@
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 
   <h2>Svelte Special Elements</h2>
-	<h3><SvelteSelf /></h3>
+	<h3>Svelte Self</h3>
+	<SvelteSelf />
+
+	<h3>Svelte Component</h3>
+	<SvelteComp />
 </main>
 
 <style>

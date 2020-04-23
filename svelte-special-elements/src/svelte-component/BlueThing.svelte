@@ -1,0 +1,9 @@
+<style>
+  strong {
+    color: blue;
+  }
+</style>
+
+<strong>
+  Blue thing
+</strong>
