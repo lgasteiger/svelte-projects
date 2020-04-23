@@ -1,6 +1,8 @@
 <script>
 	import SvelteSelf from './SvelteSelf.svelte';
 	import SvelteComp from './svelte-component/SvelteComponent.svelte';
+	import SvelteWindow from './SvelteWindow.svelte';
+	import WindowBindings from './WindowBindings.svelte';
 
 	export let name;
 </script>
@@ -15,6 +17,12 @@
 
 	<h3>Svelte Component</h3>
 	<SvelteComp />
+
+	<h3>Svelte Window</h3>
+	<SvelteWindow />
+
+	<h3>Svelte Window Bindings</h3>
+	<WindowBindings />
 </main>
 
 <style>
