@@ -20,7 +20,7 @@
   kbd {
     background-color: #eee;
     border-radius: 4px;
-    font-size: 6em;
+    font-size: 2em;
     padding: 0.2em 0.5em;
     border-top: 5px solid rgba(255,255,255,0.5);
     border-left: 5px solid rgba(255,255,255,0.5);

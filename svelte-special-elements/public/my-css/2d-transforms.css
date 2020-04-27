@@ -1,0 +1,157 @@
+/************************************************************************************
+ * Description: 2d-transforms.css - This CSS file will support the presentation layer
+ *              of the 2d-transforms.html file.
+ * Date: 2018-12-22
+ * Author: Leo Gasteiger
+ ************************************************************************************/
+
+@import url("https://fonts.googleapis.com/css?family=Black+Ops+One");
+
+body {
+  font: 15px/1.5 helvetica, arial, sans-serif;
+  background: #333;
+  color: #ccc;
+  margin: 50px 50px 50px 50px;
+} /* end body; Specificity value=> 1 */
+
+a, code {
+  color: #fff;
+} /* end a, code; Specificity value=> 1 */
+
+p {
+  margin-bottom: 50px;
+} /* end p; Specificity value=> 1 */
+
+pre {
+  float: left;
+  height: 300px;
+  width: 300px;
+  background-color: #666;
+  margin: 0 50px 50px 0;
+  white-space: normal;
+} /* end pre; Specificity value=> 1 */
+
+pre code {
+  display: block;
+  height: 260px;
+  background: rgba(255, 204, 000, .7);
+  padding: 20px;
+} /* end pre code; Specificity value=> 1 + 1 = 2 */
+
+#c0 {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+} /* end #c0; Specificity value=> 100 */
+
+#c1 {
+  -webkit-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  transform: rotate(10deg);
+} /* end #c1; Specificity value=> 100 */
+
+#c2 {
+  -webkit-transform: skewX(10deg);
+  -ms-transform: skewX(10deg);
+  transform: skewX(10deg);
+} /* end #c2; Specificity value=> 100 */
+
+#c3 {
+  -webkit-transform: skewY(-10deg);
+  -ms-transform: skewY(-10deg);
+  transform: skewY(-10deg);
+} /* end #c3; Specificity value=> 100 */
+
+#c4 {
+  -webkit-transform: skew(10deg, -10deg);
+  -ms-transform: skew(10deg, -10deg);
+  transform: skew(10deg, -10deg);
+} /* end #c4 */
+
+#c5 {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+} /* end #c5; Specificity value=> 100 */
+
+#c6 {
+  -webkit-transform: scale(0.8, 1.2);
+  -ms-transform: scale(0.8, 1.2);
+  transform: scale(0.8, 1.2);
+} /* end #c6; Specificity value=> 100 */
+
+#c7 {
+  -webkit-transform: translate(25px, 10px);
+  -ms-transforom: translate(25px, 10px);
+  transform: translate(25px, 10px);
+} /* end #c7; Specificity value=> 100 */
+
+#c8 {
+  -webkit-tranform: scale(0.8) rotate(10deg) translate(25px, 10px);
+  -ms-tranform: scale(0.8) rotate(10deg) translate(25px, 10px);
+  transform: scale(0.8) rotate(10deg) translate(25px, 10px); 
+} /* end #c8; Specificity value=> 100 */
+
+/***************************** 
+ arg1 = scaling horizontal
+ arg2 = skewing vertical
+ arg3 = skewing horizontal
+ arg4 = scaling vertical
+ arg5 = translation horizontal
+ arg6 = translation vertical
+ *****************************/
+#c9 {
+  -webkit-transform: matrix(0.787846, 0.138919, -0.138919, 0.787846, 18.307, 11.3514);
+  -ms-transform: matrix(0.787846, 0.138919, -0.138919, 0.787846, 18.307, 11.3514);
+  transform: matrix(0.787846, 0.138919, -0.138919, 0.787846, 18.307, 11.3514);
+} /* end #c9; Specificity value=> 100 */
+
+#heading {
+  text-align: center;
+  color: white;
+  padding: 40px;
+  background-image: url("/Users/testuser55/Downloads/data-science/spacex1.jpg");
+} /* end #heading; Specificity value=> 100 */
+
+#heading a {
+  color: white;
+} /* end #heading a; Specificity value=> 100 + 1 = 101 */
+
+#heading a:hover {
+  background: rgba(255, 255, 255, 0.5);
+  border: 10px solid white;
+  border-radius: 10px;
+  color: blue;
+} /* end #heading a:hover; Specificity value=> 100 + 10 + 1 = 111 */
+
+#heading p {
+  font-family: "Black Ops One", cursive;
+} /* end #heading p; Specificity value=> 100 + 1 = 101 */
+
+footer {
+  text-align: center;
+  clear: both;
+} /* end footer; Specificity value=> 1 */
+
+footer figure {
+  padding: 100px 0 0 0;
+} /* end footer; Specificity value=> 1 + 1 = 2 */
+
+footer a {
+  display: block;
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 0.7s transform cubic-bezier(0.5, 1.5, 0.5, -0.5);
+} /* end footer a; Specificity value=> 1 + 1 = 2 */
+
+footer a:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+} /* end footer a:hover; Specificity value=> 10 + 1 = 11 */
+
+footer p {
+  display: block;
+  transform: scale(0.8);
+} /* end footer p; Specificity value=> 1 + 1 = 2 */
