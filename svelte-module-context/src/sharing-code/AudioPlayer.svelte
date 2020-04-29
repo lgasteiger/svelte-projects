@@ -1,5 +1,13 @@
 <script context="module">
   let current;
+
+  const elements = new Set();
+
+  export function stopAll() {
+    elements.forEach(element => {
+      element.pause();
+    }); //end elements.forEach
+  } //end stopAll()
 </script>
 
 <script>
@@ -16,7 +24,7 @@
       current.pause();
     } //end if
 
-    current = audio;
+    current = audio; 
   } //end stopOthers()
 </script>
 

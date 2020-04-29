@@ -1,6 +1,5 @@
 <script>
-	import SharingCode from './sharing-code/SharingCode.svelte';
-	import ModuleContextExports from './sharing-code/ModuleContextExports.svelte';
+  import Congratulations from './Congratulations.svelte';
 
 	export let name;
 </script>
@@ -9,12 +8,9 @@
 	<h1>Hello {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 
-  <h2>Svelte Module Context Exercises</h2>
-	<h3>Sharing Code</h3>
-	<SharingCode />
-
-	<h3>Exports</h3>
-	<ModuleContextExports />
+	<h2>Svelte Next Step</h2>
+	<h3>Congratulations</h3>
+	<Congratulations />
 </main>
 
 <style>
