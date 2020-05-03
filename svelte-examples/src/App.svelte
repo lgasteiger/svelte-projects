@@ -3,7 +3,10 @@
 	import TemperatureConverter from './TemperatureConverter.svelte';
 	import FlightBooker from './FlightBooker.svelte';
 	import Timer from './Timer.svelte';
-  import Crud from './Crud.svelte';		
+	import Crud from './Crud.svelte';		
+	//import CircleDrawer from './CircleDrawer.svelte';
+	import Test from './Test.svelte';
+
 	export let name;
 </script>
 
@@ -39,6 +42,14 @@
 			<tr>
 			  <td>CRUD Exercise</td>
 				<td><Crud /></td>
+			</tr>
+			<tr>
+			  <td>Circle Drawer Exercise</td>
+				<td>
+				  <p style="color: green">
+				    <i>TODO: Debug the CircleDrawer code.</i>
+				  </p>
+				</td>
 			</tr>
 		</tbody>
 	</table>

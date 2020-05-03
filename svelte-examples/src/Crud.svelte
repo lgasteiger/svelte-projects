@@ -2,9 +2,9 @@
 
 <script>
   let people = [
-    { first: 'Hans', last: 'Emil' }
-    ,{ first: 'Max', last: 'Mustermann'}
-    ,{ first: 'Roman', last: 'Tisch'}
+    { first: 'Mark', last: 'Zuckerberg' }
+    ,{ first: 'Evan', last: 'Yu'}
+    ,{ first: 'Rich', last: 'Harris'}
   ]; //end people list
 
   let prefix = '';
