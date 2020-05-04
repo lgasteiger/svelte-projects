@@ -1,5 +1,6 @@
 <script>
   import HackerNews from './hacker-news/HackerNews.svelte';
+  import ImmutableData from './immutable-data/ImmutableData.svelte';
 
 	export let name;
 </script>
@@ -11,6 +12,9 @@
   <h2>Svelte Miscellaneous Exercises</h2>
 	<h3>Hacker News Example</h3>
 	<HackerNews />
+
+	<h3>Immutable Data Example</h3>
+  <ImmutableData />
 </main>
 
 <style>
