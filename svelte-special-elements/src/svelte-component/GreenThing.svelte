@@ -1,9 +1,0 @@
-<style>
-  strong {
-    color: green;
-  }
-</style>
-
-<strong>
-  Green thing
-</strong>
