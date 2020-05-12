@@ -1,0 +1,77 @@
+/**********************************************************************************
+ * Description: svelteIntro.css - This CSS file will support the presentation layer
+ *              for the Svelte Intro tutorial files.
+ * Date: 2020-05-11
+ * Author: Leo Gasteiger
+ **********************************************************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+body {
+  font: 100% arial, helvetica, sans-serif;
+  background: #ccc;
+} /* end body */
+
+.heading {
+  background: url('./images/data-science-4.jpeg') left/275px 95px no-repeat;
+  color:rgb(110,24,2);
+  text-align: center;
+  padding: 30px;
+} /* end .heading */
+
+.content p {
+  font-family: 'Nunito Sans', sans-serif;
+} /* end .content */
+
+h2 {
+  text-shadow: -2px 2px 2px #fff;
+  padding: 0.15em 0 0.25em 0.5em;
+  border-radius: 100px;
+  border: 3px solid #fff;
+  background: #06c;
+  margin: 1em 32.85em 0.5em 0;
+} /* end h2 */
+
+a {
+  transition: 0.5s;
+} /* end a */
+
+footer {
+  text-align: center;
+  clear: both;
+} /* footer */
+
+footer figure {
+  padding: 5em 0 0 0;
+} /* footer figure */
+
+figcaption a {
+  color: rgb(110,24,2);
+  text-decoration: none;
+  border-bottom: 0.2em solid rgb(110,24,2);
+  transition: 0.5s;
+}
+
+figcaption a:hover {
+  border-color: #000;
+  color: #fc0;
+  background: rgb(110,24,2);
+  border-radius: 1em;
+  padding: 0.3em;
+}
+
+footer p {
+  transform: scale(0.75);
+}
+
+footer p:before {
+  content: "*** ";
+  background: rgb(110,24,2);
+  color: #fc0;
+}
+
+footer p:after {
+  content: " ***";
+  background: rgb(110,24,2);
+  color: #fc0;
+}

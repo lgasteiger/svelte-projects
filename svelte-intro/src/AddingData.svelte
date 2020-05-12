@@ -1,3 +1,7 @@
+<svelte:head>
+  <link rel="stylesheet" href="./svelteIntro.css">
+</svelte:head>
+
 <script>
   let name = 'world';
   const footerImage = './images/machine-learning-31.jpg';

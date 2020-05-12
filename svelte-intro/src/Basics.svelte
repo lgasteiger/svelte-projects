@@ -1,45 +1,15 @@
+<svelte:head>
+  <link rel="stylesheet" href="./svelteIntro.css">
+</svelte:head>
+
 <script>
   const footerImage = './images/machine-learning-playlist.png';
 </script>
 
-<style>
-  a {
-    transition: 0.5s;
-  }
-
-  #heading {
-    color: white;
-    background-image: url("../images/machine-learning-7.jpg");
-    padding: 30px;
-  }
-
-  footer {
-    clear: both;
-    background: #ccc;
-  } 
-
-  footer figure {
-    padding: 150px 0 0 0;
-  }
-
-  figcaption a {
-    color: #f66;
-    text-decoration: none;
-    border-bottom: 3px solid #f66;
-  }
-
-  figcaption a:hover {
-    border-color: #c00;
-    color: #c00;
-  }
-
-  footer p {
-    transform: scale(0.75);
-  }
-</style>
-
-<section id="heading">
+<section class="heading">
   <h1>Hello World</h1>
+</section>
+<section class="content">
   <p>
     This Webpage shall be the Svelte Introduction => Basic exercise.
   </p>
@@ -60,6 +30,6 @@
   </figure>
   <p>
     This Webpage is HTML5 compliant.<br />
-    Last Updated: 2020-05-07
+    Last Updated: 2020-05-11
   </p>
 </footer>
