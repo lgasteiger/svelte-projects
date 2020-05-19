@@ -1,18 +1,18 @@
-<svelte:head>
-  <link rel="stylesheet" href="./svelteIntro.css">
-</svelte:head>
-
 <script>
-  const footerImage = './images/machine-learning-playlist.png';
+  const string = `This string contains some <strong>HTML!!!</strong>`;
+  const footerImage = './images/machine-learning-6.jpg';
 </script>
 
 <section class="heading">
-  <h1>Hello World</h1>
+  <h1>HTML Tags</h1>
 </section>
 <section class="content">
   <p>
-    This Webpage shall be the Svelte Introduction => Basic exercise.
+    This Webpage shall be the Svelte Introduction => HTML Tags exercise.
   </p>
+  <pre>
+    {@html string}
+  </pre>
 </section>
 <footer>
   <figure>
@@ -30,6 +30,6 @@
   </figure>
   <p>
     This Webpage is HTML5 compliant.<br />
-    Last Updated: 2020-05-11
+    Last updated: 2020-05-11
   </p>
 </footer>

@@ -1,18 +1,27 @@
 <svelte:head>
-  <link rel="stylesheet" href="./svelteIntro.css">
+  <link rel="stylesheet" href=".\svelteIntro.css">
 </svelte:head>
 
 <script>
+  let count = 0;
+
   const footerImage = './images/machine-learning-playlist.png';
+  
+  function handleClick() {
+    count += 1;
+  } //end handleClick()
 </script>
 
 <section class="heading">
-  <h1>Hello World</h1>
+  
 </section>
 <section class="content">
   <p>
-    This Webpage shall be the Svelte Introduction => Basic exercise.
+    This Webpage shall be the Reactivity ==> Assignments exercise.
   </p>
+  <button on:click={handleClick}>
+    Clicked {count} {count === 1 ? 'time' : 'times'}
+  </button>
 </section>
 <footer>
   <figure>
@@ -30,6 +39,6 @@
   </figure>
   <p>
     This Webpage is HTML5 compliant.<br />
-    Last Updated: 2020-05-11
+    Last Updated: 2020-05-19
   </p>
 </footer>

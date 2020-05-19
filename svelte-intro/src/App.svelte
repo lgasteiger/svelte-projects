@@ -1,8 +1,9 @@
 <script>
 	import Basics from './Basics.svelte';
-	//import AddingData from './AddingData.svelte';
-	//import NestedComp from './nested-comp/NestedComp.svelte';
-
+	import AddingData from './AddingData.svelte';
+	import NestedComp from './nested-comp/NestedComp.svelte';
+	import HtmlTags from './HtmlTags.svelte';
+	
 	export let name;
 </script>
 
@@ -21,7 +22,16 @@
 				<td><Basics /></td>
 			</tr>
 			<tr>
-			  <td></td>
+			  <td>Introduction => Adding Data</td>
+				<td><AddingData /></td>
+			</tr>
+			<tr>
+			  <td>Introduction => Nested Components</td>
+				<td><NestedComp /></td>
+			</tr>
+			<tr>
+			  <td>Introduction => HTML Tags</td>
+				<td><HtmlTags /></td>
 			</tr>
 		</tbody>
 	</table>
