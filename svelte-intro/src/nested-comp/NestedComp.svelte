@@ -46,7 +46,7 @@
   </p>
   <h2 id="nested">Nested Component</h2>
   <p>
-    <Nested />
+    <Nested additionalContent={'This is another paragraph. Hope you like it!'}/>
   </p>
   <p>
     <a href="#top">Go to Top</a>

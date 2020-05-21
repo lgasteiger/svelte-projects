@@ -3,19 +3,34 @@
 </svelte:head>
 
 <script>
-  import Nested from './Nested.svelte';
+  import Info from './Info.svelte';
 
+  const pkg = {
+    name: 'svelte'
+    ,version: 3
+    ,speed: 'blazing'
+    ,website: 'https://svelte.dev'
+  }; //end pkg variable
   const footerImage = './images/machine-learning-playlist.png';
 </script>
 
 <section class="heading">
-  
 </section>
 <section class="content">
   <p>
-    This Webapage shall display the Svelte Declaring Props Tutorial exercise.
+    This Webpage shall display the Svelte Spread Props Tutorial exercise.
   </p>
-  <Nested />
+
+  <Info
+    name={pkg.name}
+    version={pkg.version}
+    speed={pkg.speed}
+    website={pkg.website}
+  />
+  
+<!--
+  <Info {...pkg} />
+-->
 </section>
 <footer>
   <figure>

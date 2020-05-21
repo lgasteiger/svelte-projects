@@ -1,5 +1,5 @@
 <script>
-  export let answer;
+  export let answer = '***No value yet***';
 </script>
 
 <p>

@@ -1,7 +1,6 @@
 <script>
   import DeclaringProps from './declaring-props/DeclaringProps.svelte';
-
-	export let name;
+	import SpreadProps from './spread-props/SpreadProps.svelte';
 </script>
 
 <main>
@@ -14,8 +13,14 @@
 			</tr>
 		</thead>
 		<tbody>
-		  <td class="svelteExer">Props ==> Declaring Props</td>
-			<td><DeclaringProps /></td>
+		  <tr>
+			  <td class="exerciseName">Props ==> Declaring Props</td>
+			  <td><DeclaringProps /></td>
+			</tr>
+		  <tr>
+			  <td class="exerciseName">Props ==> Spread Props</td>
+				<td><SpreadProps /></td>
+			</tr>
 		</tbody>
 	</table>
 </main>
@@ -28,7 +33,7 @@
 		margin: 0 auto;
 	}
 
-	.svelteExer {
+	.exerciseName {
 		color: #ff3e00;
 		text-transform: uppercase;
 		font-size: 1em;

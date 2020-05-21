@@ -1,3 +1,7 @@
+<script>
+  export let additionalContent;
+</script>
+
 <p>
-  This is another paragraph.
+  {additionalContent}
 </p>
