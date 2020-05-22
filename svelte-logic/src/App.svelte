@@ -1,5 +1,7 @@
 <script>
 	import IfBlocks from './IfBlocks.svelte';
+	import ElseIfBlocks from './ElseIfBlocks.svelte';
+	import EachBlocks from './EachBlocks.svelte';
 </script>
 
 <main>
@@ -14,7 +16,15 @@
 		<tbody>
 		  <tr>
 			  <td class="exerciseName">Logic ==> If Blocks</td>
-        <td><IfBlocks user={{ loggedIn: false }}/></td>
+        <td><IfBlocks user={{ loggedIn: false }} /></td>
+			</tr>
+			<tr>
+			  <td class="exerciseName">Logic ==> If Else Blocks</td>
+				<td><ElseIfBlocks x={8} /></td>
+			</tr>
+			<tr>
+			  <td class="exerciseName">Logic ==> Each Blocks</td>
+				<td><EachBlocks /></td>
 			</tr>
 		</tbody>
 	</table>
