@@ -1,4 +1,4 @@
-/**********************************************************************************
+  /**********************************************************************************
  * Description: svelteIntro.css - This CSS file will support the presentation layer
  *              for the Svelte Intro tutorial files.
  * Date: 2020-05-21
@@ -15,7 +15,7 @@ body {
 .heading {
   background: url('./images/data-science-4.jpeg') left/275px 95px no-repeat;
   color:rgb(110,24,2);
-  text-align: right;
+  text-align: left;
   padding: 75px;
 } /* end .heading */
 
@@ -45,14 +45,14 @@ footer figure {
   padding: 5em 0 0 0;
 } /* footer figure */
 
-figcaption a {
+footer figure a {
   color: rgb(110,24,2);
   text-decoration: none;
   border-bottom: 0.2em solid rgb(110,24,2);
   transition: 0.5s;
 }
 
-figcaption a:hover {
+footer figure a:hover {
   border-color: #000;
   color: #fc0;
   background: rgb(110,24,2);
