@@ -7,6 +7,10 @@
 
 	import DomEvents from './DomEvents.svelte';
 	import InlineHandlers from './InlineHandlers.svelte';
+	import EventModifiers from './EventModifiers.svelte';
+	import ComponentEvents from './component-events/ComponentEvents.svelte';
+	import EventForwarding from './event-forwarding/EventForwarding.svelte';
+	import DomEventForwarding from './dom-event-forwarding/DomEventForwarding.svelte';
 </script>
 
 <main>
@@ -34,6 +38,22 @@
 				<tr>
 				  <td class="exerciseName">Events ==> Inline Handlers</td>
 					<td><InlineHandlers /></td>
+				</tr>
+				<tr>
+				  <td class="exerciseName">Events ==> Event Modifiers</td>
+					<td><EventModifiers /></td>
+				</tr>
+				<tr>
+				  <td class="exerciseName">Events ==> Component Events</td>
+					<td><ComponentEvents /></td>
+				</tr>
+				<tr>
+				  <td class="exerciseName">Events ==> Event Forwarding</td>
+					<td><EventForwarding /></td>
+				</tr>
+				<tr>
+				  <td class="exerciseName">Event ==> DOM Event Forwarding</td>
+					<td><DomEventForwarding /></td>
 				</tr>
 			</tbody>
 		</table>

@@ -7,7 +7,7 @@
   function handleMouseMove(event) {
     m.x = event.clientX;
     m.y = event.clientY;
-  } //end handleMouseMove
+  } //end handleMouseMove()
 </script>
 
 <style>
