@@ -6,6 +6,9 @@
 	const footerImage = './images/machine-learning-playlist.png';
 
 	import TextInputs from './TextInputs.svelte';
+	import NumericInputs from './NumericInputs.svelte';
+	import CheckboxInputs from './CheckboxInputs.svelte';
+	import GroupInputs from './GroupInputs.svelte';
 </script>
 
 <main>
@@ -26,6 +29,18 @@
 			  <tr>
 				  <td class="exerciseName">Bindings ==> Text Inputs</td>
 					<td><TextInputs /></td>
+				</tr>
+				<tr>
+				  <td class="exerciseName">Bindings ==> Numeric Inputs</td>
+					<td><NumericInputs /></td>
+				</tr>
+				<tr>
+				  <td class="exerciseName">Bindings ==> Checkbox Inputs</td>
+				  <td><CheckboxInputs /></td>
+				</tr>
+				<tr>
+				  <td class="exerciseName">Binding ==> Group Inputs</td>
+					<td><GroupInputs /></td>
 				</tr>
 			</tbody>
 		</table>
