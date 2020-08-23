@@ -11,6 +11,7 @@
 	import GroupInputs from './GroupInputs.svelte';
 	//import TextAreaInputs from './TextAreaInputs.svelte';
 	import SelectBindings from './SelectBindings.svelte';
+	import SelectMultiple from './SelectMultiple.svelte';
 </script>
 
 <main>
@@ -51,6 +52,10 @@
 				<tr>
 				  <td class="exerciseName">Bindings ==> Select Bindings</td>
 					<td><SelectBindings /></td>
+				</tr>
+				<tr>
+				  <td class="exerciseName">Bindings ==> Select Multiple</td>
+				  <td><SelectMultiple /></td>
 				</tr>
 			</tbody>
 		</table>
