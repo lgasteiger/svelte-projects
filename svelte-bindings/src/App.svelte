@@ -9,6 +9,8 @@
 	import NumericInputs from './NumericInputs.svelte';
 	import CheckboxInputs from './CheckboxInputs.svelte';
 	import GroupInputs from './GroupInputs.svelte';
+	//import TextAreaInputs from './TextAreaInputs.svelte';
+	import SelectBindings from './SelectBindings.svelte';
 </script>
 
 <main>
@@ -41,6 +43,14 @@
 				<tr>
 				  <td class="exerciseName">Binding ==> Group Inputs</td>
 					<td><GroupInputs /></td>
+				</tr>
+				<tr>
+				  <td class="exerciseName">Binding ==> Textarea Inputs</td>
+					<td>//TODO: Fix textarea bug.</td>
+				</tr>
+				<tr>
+				  <td class="exerciseName">Bindings ==> Select Bindings</td>
+					<td><SelectBindings /></td>
 				</tr>
 			</tbody>
 		</table>
