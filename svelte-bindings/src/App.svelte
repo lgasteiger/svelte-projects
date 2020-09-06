@@ -12,6 +12,8 @@
 	//import TextAreaInputs from './TextAreaInputs.svelte';
 	import SelectBindings from './SelectBindings.svelte';
 	import SelectMultiple from './SelectMultiple.svelte';
+	import ContentEditableBindings from './ContentEditableBindings.svelte';
+	import EachBlockBindings from './EachBlockBindings.svelte';
 </script>
 
 <main>
@@ -56,6 +58,14 @@
 				<tr>
 				  <td class="exerciseName">Bindings ==> Select Multiple</td>
 				  <td><SelectMultiple /></td>
+				</tr>
+				<tr>
+				  <td class="exerciseName">Bindings ==> Content Editable Bindings</td>
+					<td><ContentEditableBindings /></td>
+				</tr>
+				<tr>
+				  <td class="exerciseName">Bindings ==> Each Block Bindings</td>
+					<td><EachBlockBindings /></td>
 				</tr>
 			</tbody>
 		</table>
