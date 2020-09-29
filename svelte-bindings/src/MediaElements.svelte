@@ -34,7 +34,7 @@
       if (paused) {
         e.target.play();
       } else {
-        e.target.paused();
+        e.target.pause();
       } //end if
 
       cancel();
@@ -123,7 +123,7 @@
   <h1>Caminandes: Llamigos</h1>
   
   <p>
-    From <a hred="https://cloud.blender.org/open-projects">Blender Open Projects</a>.
+    From <a href="https://cloud.blender.org/open-projects">Blender Open Projects</a>.
     CC-BY
   </p>
 
