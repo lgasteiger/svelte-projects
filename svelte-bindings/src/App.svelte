@@ -15,6 +15,7 @@
 	import ContentEditableBindings from './ContentEditableBindings.svelte';
 	import EachBlockBindings from './EachBlockBindings.svelte';
 	import MediaElements from './MediaElements.svelte';
+	import DimsBindings from './DimensionsBindings.svelte';
 </script>
 
 <main>
@@ -71,6 +72,10 @@
 				<tr>
 				  <td class="exerciseName">Bindings ==> Media Elements Bindings</td>
 					<td><MediaElements /></td>
+				</tr>
+				<tr>
+				  <td class="exerciseName">Bindings ==> Dimensions Bindings</td>
+					<td><DimsBindings /></td>
 				</tr>
 			</tbody>
 		</table>
