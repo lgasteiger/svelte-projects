@@ -17,6 +17,7 @@
 	import MediaElements from './MediaElements.svelte';
 	import DimsBindings from './DimensionsBindings.svelte';
 	import ThisBindings from './ThisBindings.svelte';
+	import ComponentBindings from './component-bindings/ComponentBindings.svelte';
 </script>
 
 <main>
@@ -81,6 +82,10 @@
 				<tr>
 				  <td class="exerciseName">Bindings ==> This Bindings</td>
 					<td><ThisBindings /></td>
+				</tr>
+				<tr>
+				  <td class="exerciseName">Bindings ==> Component Bindings</td>
+					<td><ComponentBindings /></td>
 				</tr>
 			</tbody>
 		</table>
