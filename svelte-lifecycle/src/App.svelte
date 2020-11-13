@@ -5,6 +5,8 @@
 <script>
 	const footerImage = './images/machine-learning-playlist.png';
 
+	import OnMountLifecycle from './OnMountLifecycle.svelte';
+
   function getTodaysDate() {
 		const todaysDate = new Date().toISOString().slice(0, 10);
 		return todaysDate;
@@ -18,7 +20,19 @@
 	
 	<section class="content">
 	  <table>
-		
+		  <caption>Svelte Lifecyle Tutorial Exercises</caption>
+			<thead>
+			  <tr>
+			    <td>Svelte Concepts</td>
+				  <td>Svelte Project Exercises</td>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+				  <td class="exerciseName">Lifecycle ==> onMount</td>
+					<td><OnMountLifecycle /></td>
+				</tr>
+			</tbody>
 		</table>
 	</section>
 	
