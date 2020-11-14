@@ -6,6 +6,7 @@
 	const footerImage = './images/machine-learning-playlist.png';
 
 	import OnMountLifecycle from './OnMountLifecycle.svelte';
+	import OnDestroyLifecycle from './onDestroy-lifecycle/OnDestroyLifecycle.svelte';
 
   function getTodaysDate() {
 		const todaysDate = new Date().toISOString().slice(0, 10);
@@ -31,6 +32,10 @@
 			  <tr>
 				  <td class="exerciseName">Lifecycle ==> onMount</td>
 					<td><OnMountLifecycle /></td>
+				</tr>
+				<tr>
+				  <td class="exerciseName">Lifecycle ==> onDestroy</td>
+					<td><OnDestroyLifecycle /></td>
 				</tr>
 			</tbody>
 		</table>
